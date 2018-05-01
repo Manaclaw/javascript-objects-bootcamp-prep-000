@@ -1,4 +1,4 @@
-var playlist = { : "songTitle" }
+var playlist = {keys: "0" }
 
 
 
