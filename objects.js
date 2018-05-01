@@ -1,9 +1,8 @@
-var playlist = { "artistName": "songTitle" }
+var playlist = { artistName: "songTitle" }
 
-playlist['Slowdive'] = 'Alison'
-playlist['My Bloody Valentine'] = 'Sometimes'
 
-function updatePlaylist('laylist, artistName, songtitle) {
-return Obct.assign({playlist}, playlist, { ["artistName"]: "songTitle" })
+
+function updatePlaylist(playlist, artistName: `songtitle`) {
+return Object.assign({playlist}, playlist, { ["artistName"]: "songTitle" })
 }
 
