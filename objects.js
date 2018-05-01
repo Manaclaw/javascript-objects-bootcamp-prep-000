@@ -1,2 +1,2 @@
 var playlist
-Object.assign({}, obj, { [key]: value })
+Object.assign({playlist}, obj, { [key]: value })
